@@ -5,7 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js"></script>
+
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Open+Sans:ital,wght@1,800&family=Raleway:ital,wght@1,300;1,700&family=Roboto+Flex:opsz,wght@8..144,200&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="title">
+      <h1 class="h1Title">Rock Paper Scissors</h1>
+    </div>
+    <div class="options">
+      <button class="btn" id="rock">🪨</button>
+      <button class="btn" id="paper">📄</button>
+      <button class="btn" id="scissors">✂️</button>
+    </div>
+    <div class="actions">
+      <p class="result"></p>
+    </div>
+    <div class="scores">
+      <p class="playerScore">
+        Player Score
+        <span class="pScore">0</span>
+      </p>
+      <p class="computerScore">
+        Computer Score
+        <span class="cScore">0</span>
+      </p>
+    </div>
+    <button class="reset">RESET</button>
+    <div class="footer">
+      <p class="pFooter">Created by Hayden Murphy - The Odin Project 2022</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

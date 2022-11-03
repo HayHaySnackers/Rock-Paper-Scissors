@@ -1,0 +1,102 @@
+body {
+  margin: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0b0c10;
+}
+
+.title {
+  height: 25vh;
+  width: 100vw;
+  color: #66fcf1;
+  outline: 10px;
+}
+
+.h1Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 2px 2px #45a29e;
+  font-size: 50px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 30vh;
+  width: 60vw;
+}
+
+.btn {
+  background-color: #0b0c10;
+  margin: auto;
+  opacity: 1;
+  font-size: 5em;
+  outline: 3px solid;
+  outline-color: #66fcf1;
+}
+
+.btn.transparent {
+  opacity: 0;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  color: #66fcf1;
+  text-shadow: 2px 2px #45a29e;
+}
+
+.scores {
+  height: 35vh;
+  width: 100vw;
+  padding: 15;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerScore,
+.computerScore {
+  height: 5em;
+  width: auto;
+  padding: 5px;
+  margin: auto;
+  color: #66fcf1;
+  background-color: #0b0c10;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.pScore,
+.cScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  width: 4em;
+  color: #66fcf1;
+}
+
+.reset {
+  padding: 10px 20px;
+  margin-left: 45%;
+  margin-bottom: 5%;
+  background-color: #0b0c10;
+  color: #66fcf1;
+  outline: 2px solid;
+}
+
+.pFooter {
+  display: flex;
+  justify-content: center;
+  color: #66fcf1;
+  background-color: #0b0c10;
+}
